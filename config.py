@@ -31,7 +31,7 @@ PORT = environ.get("PORT", "8080")
 CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
 
 # If Clone Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
+CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://adscomjai:3GcLpN9JbD3Bi8WB@cluster0.t8owj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 CDB_NAME = environ.get("CDB_NAME", "drastrostorebot")
 
 # Database Information
@@ -80,7 +80,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "")
+URL = environ.get("URL", "("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")
 
 
 # Don't Remove Credit Tg - @VJ_Botz
